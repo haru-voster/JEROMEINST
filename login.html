@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN-FORM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <style>
+        *{
+   box-sizing: border-box;
+}
+.login-body{
+   background: #f6f5f7;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   font-family:'Monserrat', sans-serif;
+   height: 100vh;
+   margin: -20px 0 50px;
+}
+.heading{
+   font-size: 16px;
+   margin-top: 20px;
+   margin-top: 10px;
+}
+span{
+   font-size: 15px;
+}
+.social-container{
+   color: #333;
+   font-size: 14px;
+   text-decoration: none;
+   margin: 15px 0;
+}
+button{
+   border-radius: 20px;
+   border: 1px solid #ff4b2b;
+   background-color: #ff4b2b;
+   color: #ffffff;
+   font-size: 12px;
+   font-weight: bold;
+   padding: 12px 45px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   transition: transform 80ms ease-in;
+}
+button:active{
+   transform: scale(0.95);
+}
+button:hover{
+   color: #01ea85;
+}
+button:focus{
+   outline: none;
+}
+button.ghost{
+   background: transparent;
+   border-color: #7dc3d7;
+   
+}
+.form-1{
+   background-color: #ffffff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 0px 50px;
+   height: 100%;
+   text-align: center;
+}
+input{
+   background-color: #eee;
+   border-color:transparent;
+   padding: 5px ;
+   margin: 12px 0px;
+   width: 100%;
+}
+.container{
+   width: 900px;
+   margin-bottom: -100px;
+   padding-left: 250px;
+}
+.social-container{
+   margin: 20px 0;
+}
+.social-container a{
+   border: 1px solid#28db00;
+   border-radius: 50%;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 5px;
+   height: 40px;
+   width: 40px;
+}
+.social:hover{
+   color: #ff004c;
+   transition: 0.5s;
+}
+    </style>
+</head>
+<body class="login-body">
+    <a href="/">HOME</a>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="/student's portal.html" class="form-1">
+                <div class="heading">
+                <h1>Create Account</h1>
+                </div>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fa fa-google"></i></a>
+                    <a href="#" class="social"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="social"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="password" placeholder="Password">
+                <button>SignIn</button>
+            </form>
+        </div>
+        <div class="form-container sign-up-container">
+            <form action="#" class="form-1">
+                <div class="heading">
+                <h1>Sign Up</h1>
+              </div>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fa fa-google"></i></a>
+                    <a href="#" class="social"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="social"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <span>or use your account</span>
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="password" placeholder="Password">
+                <a href="#">Forgot Your Password?</a>
+                <button>SignUp</button>
+            </form>
+        </div>
+</html>

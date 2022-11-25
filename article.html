@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w3.css">
+    <title>Document</title>
+    <style>
+        .myslides{
+            display:none;
+        }
+        .w3-content{
+            padding:0;
+            margin:0;
+            width:75%;
+        }
+    </style>
+</head>
+<body>
+    <div class="article">
+      <div class="w3-row-padding">
+         <div class="w3-col s9">
+            <div class="w3-content " style="max-width:500px">
+                <img class="mySlides" src="stud (2).jpg" height="350px" width="185%">
+                <img class="mySlides" src="lab2.jpg" height="350px" width="185%">
+                <img class="mySlides" src="lab3.jpg" height="350px" width="185%">
+              </div>
+              
+             
+         </div>
+         <div class="w3-col s3 w3-center">
+        <div class=" w3-card-4" style="height:350px">
+            <div class="w3-green">
+                <strong >APPLICATION IS NOW OPEN</strong>
+            </div>
+            <img src="lab.jpg" alt="" width="100%">
+            <div class="w3-container w3-center">
+                <p class="w3-small">Jerome international  institute of technology 
+                    is known for offering accredited and reliable 
+                    high quality higher education to fulfil the need of accquiring knowledge and using it to the fullest
+                    to spearhead innovation and revolution. Join us today or a brighter future.
+                </p>
+                <div class="w3-green">
+                    <h2 class="w3-small">Admission</h2>
+                </div>
+               
+            </div>
+        </div>
+         </div>
+         
+      </div>
+    </div>
+    <div class="w3-row-padding w3-container">
+        <h1 class="w3-center">Jerome Core Feature</h1>
+        <div class="w3-col s6">
+         <h2>Quality Guaranteed</h2>
+         <p>Jerome institute of technology is an accredited and well-known institute which offer high Quality
+            higher education both domestically and internationally through employement of qualified and dedicated staff 
+            to provide excellent skills and training.
+         </p>
+         <h2>Great Learning Enviroment</h2>
+         Jerome has a spacious lecture hall accomodating upto 654 students per room, ultra mordern library, well facilitated labaratories
+          for the purpose of ensuring our students are well equiped to excell. 
+          <h2>Project</h2>
+          <p>
+            Jerome institute of technology advocates leareners to come up with proect ideas 
+            and help them to achieve this through providance of funds and resources, consolitation and motivation which will enable 
+            learners to change the world.
+          </p>
+          
+
+        </div>
+        <div class="w3-col s6">
+         <h2>Continuous learning</h2>
+         <p>We ensure there is no disruption of learning and enable learners to finish their programmes on time 
+            and graduate. The institute also insure online learning as eective programme or students to access 
+            and pursue their education.
+         </p>
+         <h2>Online resorces</h2>
+         <p>Jerome institute of technology promotes use of online resopurces by establishing E-Learning services and 
+            library services to their students.
+         </p>
+         <h2>Financial Aid</h2>
+         <p>Our financial services allow learners to access funding through available government and 
+            county funding programmes. Degrees students are eligble for HELB support. We also admit government and private sponsored 
+        students and offer need based scholarship.  </p>
+        </div>
+    </div>
+    <div class="w3-row-padding w3-container">
+        <div class="w3-col s4">
+            <img src="lab2.jpg" alt="" height="200px" width="100%">
+            <caption> Plan a visit</caption>
+        </div>
+        <div class="w3-col s4">
+            <img src="lab3.jpg" alt="" height="200px" width="100%">
+            <caption>Study Program</caption>
+        </div>
+        <div class="w3-col s4">
+            <img src="lab4.jpg" alt="" height="200px" width="100%">
+            <caption>Admission</caption>
+        </div>
+    </div>
+    <div class="w3-row-padding w3-margin-bottom w3-container">
+        <h1>Our Popular Programmes</h1>
+        <div class="w3-col s3">
+           <div class="w3-card-4">
+            <img src="lab.jpg" class="w3-hover-opacity" alt="" height="200px" width="100%">
+            <div>
+                <p>PHD programme</p>
+            </div>
+           </div>
+        </div>
+        <div class="w3-col s3">
+            <div class="w3-card-4">
+                <img src="lab.jpg" class="w3-hover-opacity" alt="" height="200px" width="100%">
+                <div>
+                    <p>Masters programme</p>
+                </div>
+               </div>
+        </div>
+        <div class="w3-col s3">
+            <div class="w3-card-4">
+                <img src="stud (1).jpg" class="w3-hover-opacity" alt="" height="200px" width="100%">
+                <div>
+                    <p>Undergraduate programme</p>
+                </div>
+               </div>
+        </div>
+        <div class="w3-col s3">
+            <div class="w3-card-4">
+                <img src="lab4.jpg" class="w3-hover-opacity" alt="" height="200px" width="100%">
+                <div>
+                    <p>Diploma programme</p>
+                </div>
+               </div>
+        </div>
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2500); // Change image every 2.5 seconds
+        }
+        </script>
+</body>
+</html>

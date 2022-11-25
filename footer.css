@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    
+}
+body{
+    margin:55px,0px,0px,0px;
+}
+
+hr.new5{
+    border:10px solid green;
+    border-radius:5px;
+}
+.column{
+    float:left;
+    width:25%;
+    padding:30px;
+    margin: 0;
+    color:white;
+   
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+}
+ul li a:hover{
+    background-color:black;
+}
+.footer{
+    background-color:rgb(17, 100, 31);
+}
+.footer::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+@media screen and (max-width:600px) {
+    .column{
+        width:100%;
+    }
+}
+.looter{
+    background-color:maroon;
+    padding:10px;
+    
+}
+h4{
+    color:black;
+}

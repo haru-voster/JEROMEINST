@@ -1,0 +1,201 @@
+
+        *
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ 
+.icon{
+   text-align: center;
+}
+.logo{
+   color: #eeff00;
+   font-size: 35px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   float: left;
+   padding-left: 230px;
+}
+ .menu-bar{
+    background: #13afdf;
+    text-align: center;
+ }
+ .menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+ }
+ .menu-bar ul li{
+    width: 180px;
+    margin: 10px;
+    padding: 10px;
+ }
+ .menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease;
+ }
+ .menu-bar ul li a:hover{
+    color:  #eb17cb;
+ }
+ .menu-bar .fa{
+    margin-right: 8px;
+ }
+ .sub-menu-1{
+    display: none;
+ }
+ .menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: #1270b7;
+    margin-top: 10px;
+    margin-left: -5px;
+ }
+ .menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 2px;
+ }
+ .menu-bar ul li:hover .sub-menu-1 ul{
+    width: 200px;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+ }
+ .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color:  #eb17cb;
+ }
+ .fa-angle-right{
+   float: right;
+}
+ .sub-menu-2{
+    display: none;
+ }
+ .hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -25px;
+    margin-left: 150px;
+    background: #0e8ebd;
+ }
+.menu-bar-2{
+   color: #82fe07;
+   margin-top: 394px;
+   margin-left: 60px;
+   font-weight: bold;
+}
+.school-list{
+   color: rgb(33, 209, 89);
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+.student-resources{
+   color: #82fe07;
+   margin-top: -111px;
+   margin-left: 530px;
+   font-weight: bold;
+}
+.school-list{
+   color: #fff;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+.email-address{
+   color:  #fff;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   margin-top: -97px;
+   margin-left: 850px;
+}
+.cover-bar{
+   background: #13afdf;
+}
+.body-3{
+   background-color: #109bff;
+} 
+.page{
+   display: flex;
+   width: auto;
+   justify-content: center;
+}
+
+.about-1 h1{
+   text-align: center;
+   color: #111;
+   font-weight: bold;
+}
+.about-1 p{
+   text-align: center;
+   padding: 10px;
+   font-size: medium;
+   color: black;
+}
+.about-1 strong{
+   color: #111;
+}
+.about-item{
+   margin-bottom: 20px;
+   margin-top: 20px;
+   background-color: #fff;
+   padding: 60px 50px;
+   box-shadow: 0 0 9px rgba(0,0,0 .6);
+   text-align: center;
+}
+.about-item i{
+   font-size: 43px;
+   margin: 0;
+}
+.about-item h3{
+   font-size: 25px;
+   margin-bottom: 10px;
+}
+.about-item hr{
+   height: 3px;
+   background-color: #0dff01;
+   margin: 0 auto;
+   border: none;
+}
+.about-item p{
+   margin-top: 10px;
+}
+.about-item li{
+   margin-top: 10px;
+}
+
+
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p,
+.about-item:hover li{
+   color: #fff;
+}
+.about-item:hover hr{
+   background-color: #fff;
+}
+.about-item:hover i{
+   transform: translateY(-30px);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover hr{
+   transition: all 400ms ease-in-out;
+}
+.otr li a{
+   text-decoration: none;
+}
+.otr  li a:hover{
+   color:green;
+}
+.otrs li a{
+   list-style-type: none;
+}
+footer h2{
+   color: black;
+}
+
+
+    
